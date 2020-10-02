@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def cart(request):
-    return render(request, 'cart/shoping_cart.html', name='blog'),
+    return render(request,'cart/shoping-cart.html',{})
